@@ -11,10 +11,7 @@ services:
     volume:
       - /usr/bin/docker:/usr/bin/docker
     network: jenkins
- 
-  
+
   network:
-    jenkins: 
+    jenkins:
       driver: bridge
-    
-      
