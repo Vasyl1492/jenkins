@@ -1,0 +1,3 @@
+
+#Insyall networks
+docker network create jenkins
