@@ -8,8 +8,6 @@ services:
     ports:
       - 8080:8080
       - 5000:5000
-    volume:
-      - /var/jenkins_home:/var/jenkins_home
-
-  network:
-    jenkins:
+#    volume:
+#      - /var/jenkins_home:/var/jenkins_home
+#    network: jenkins
